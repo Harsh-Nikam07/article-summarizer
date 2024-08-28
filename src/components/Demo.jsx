@@ -64,7 +64,7 @@ const Demo = () => {
               
               className='url_input peer'
               required/>
-            <button type='submit' className='submit_btn peer-focus:bg-black peer-focus:text-white'>
+            <button type='submit' className='submit_btn peer-focus:bg-black peer-focus:text-white hover:bg-black hover:text-white transition-all'>
               <MdOutlineSubdirectoryArrowLeft/>
             </button>
           </form>
@@ -121,7 +121,7 @@ const Demo = () => {
 
 
                   <div className='summary_box overflow-y-auto '>
-                    <p className='font-inter font-medium text-sm text-gray-700'>
+                    <p className='font-inter font-medium text-sm text-gray-700 text-justify'>
                       {article.summary}
                     </p>
                   </div>
